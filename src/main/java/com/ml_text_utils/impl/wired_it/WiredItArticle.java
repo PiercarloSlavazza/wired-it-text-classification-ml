@@ -6,7 +6,9 @@ import com.ml_text_utils.TextDocument;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-public class WiredItArticle implements TextDocument {
+import static java.lang.Math.min;
+
+@SuppressWarnings("WeakerAccess") public class WiredItArticle implements TextDocument {
 
     private static final Pattern RETAIN_NUMBER_AND_ENGLISH_LETTERS = Pattern.compile("[^a-zA-Z0-9]");
 
@@ -16,8 +18,8 @@ public class WiredItArticle implements TextDocument {
     private  String copyright;
     private  String text;
 
-    private static String buildFingerprintFromURL(String url) {
-	return RETAIN_NUMBER_AND_ENGLISH_LETTERS.matcher(url).replaceAll("_").toLowerCase();
+    private static String replaceNonAlphanumericalCharacters(String text) {
+	return RETAIN_NUMBER_AND_ENGLISH_LETTERS.matcher(text).replaceAll("_").toLowerCase();
     }
 
     @SuppressWarnings("unused") private WiredItArticle() {}
@@ -47,7 +49,8 @@ public class WiredItArticle implements TextDocument {
     }
 
     @Override public String getId() {
-	return buildFingerprintFromURL(url);
+	String normalizedTitle = replaceNonAlphanumericalCharacters(title);
+	return normalizedTitle.substring(0, min(50, normalizedTitle.length()));
     }
 
     @Override public ClassLabel getClassLabel() {
