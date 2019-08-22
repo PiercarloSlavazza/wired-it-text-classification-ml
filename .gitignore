@@ -3,3 +3,6 @@
 /target
 /corpora/wired_it_20190821.json
 /src/main/python/.ipynb_checkpoints
+/corpora/wired_it_20190821_preprocessed_lucene
+/corpora/wired_it_20190821_preprocessed_lucene_terms.json
+/corpora/wired_it_20190821_preprocessed
