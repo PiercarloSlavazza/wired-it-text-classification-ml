@@ -1,0 +1,43 @@
+class, documents in training set, documents in test set
+attualità,350,147
+attualità_ambiente,355,169
+attualità_media,326,145
+attualità_politica,347,129
+attualità_tech,338,149
+economia_business,365,133
+economia_finanza,321,155
+economia_lavoro,339,146
+economia_startup,338,147
+gadget_accessori,364,145
+gadget_audio e tv,284,117
+gadget_computer,341,152
+gadget_elettrodomestici,135,62
+gadget_foto e video,335,134
+gadget_motori,354,173
+gadget_outdoor,346,167
+gadget_videogiochi,356,153
+internet_regole,192,88
+internet_social network,364,143
+internet_tlc,121,55
+internet_web,332,172
+lifestyle_design,358,167
+lifestyle_food,364,141
+lifestyle_mobilità,351,167
+lifestyle_salute,273,118
+lifestyle_viaggi,309,156
+lol,390,141
+mobile_app,346,144
+mobile_smartphone,329,147
+mobile_tablet,147,49
+play_cinema,345,132
+play_cultura,337,146
+play_fumetti,347,151
+play_libri,360,155
+play_musica,367,139
+play_tv,341,137
+scienza,215,112
+scienza_biotech,176,67
+scienza_ecologia,353,137
+scienza_lab,340,155
+scienza_medicina,387,143
+scienza_spazio,347,135
