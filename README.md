@@ -1,12 +1,16 @@
 # Overview
 
-This project contains a Keras/Tensorflow Jupyter notebook which implements a DNN aimed at classifying the [Wired.it Italian corpus](https://github.com/PiercarloSlavazza/wired-it-scraper).
+This project contains a Keras/TensorFlow Jupyter notebook which implements a DNN aimed at classifying the [Wired.it Italian corpus](https://github.com/PiercarloSlavazza/wired-it-scraper).
 
 The project also contains a Java tool which process the original corpus so that it is better suited to be read by the Python code in the notebook.
 
 Please note that some branches are also available which contains alternative implementations of the notebook.
 
 The notebook has been featured in the essay ["What is the best method for Automatic Text Classification?"](https://medium.com/@piercarlo_slavazza/what-is-the-best-method-for-automatic-text-classification): you should read the eassy in order to better understand the goals, the algorithms and the rationales.
+
+## Credits
+
+Basic template for the Keras code has been borrowed from the Coursera course ["Natural Language Processing in TensorFlow"](https://www.coursera.org/learn/natural-language-processing-tensorflow) held by [Laurence Moroney](https://twitter.com/lmoroney).
 
 # Usage
 
