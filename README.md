@@ -6,7 +6,7 @@ The project also contains a Java tool which process the original corpus so that 
 
 Please note that some branches are also available which contains alternative implementations of the notebook.
 
-The notebook has been featured in the essay ["What is the best method for Automatic Text Classification?"](https://medium.com/@piercarlo_slavazza/what-is-the-best-method-for-automatic-text-classification): you should read the eassy in order to better understand the goals, the algorithms and the rationales.
+The notebook has been featured in the essay ["What is the best method for Automatic Text Classification?"](hhttps://medium.com/@piercarlo_slavazza/https-medium-com-piercarlo-slavazza-what-is-the-best-method-for-automatic-text-classification-a01d4dfadd): you should read the eassy in order to better understand the goals, the algorithms and the rationales.
 
 ## Credits
 
